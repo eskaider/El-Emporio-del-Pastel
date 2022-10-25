@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+*{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    line-height: 1.5;
+    text-align: left;
+}
+
+/* Header de la pagina Web */
+
+.top{
+    height: 200px;
+    background: #dae0c9;
+    display: flex;
+}
+
+.menu{
+    width: 100vw;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.icon{
+    width: 290px;
+    height: 290px;
+    margin-top: 80px;
+    margin-left: 57px;
+    border-radius: 239px;
+}
+
+.list{
+    display: flex;
+    list-style: none;
+}
+
+.list li{
+    margin: 0 35px;
+}
+
+.list li a{
+    padding: 10px 25px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    display: block;
+    color: #686d4e;
+}
+
+.items a:hover{
+    background-color: #686d4e;
+    color: #dae0c9;
+    border-radius: 15px;
+}
+
+/* Parte media de la web "Slogan */
+
+.img-back{
+    background-image: url(/img/banner.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 370px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #c862d1;
+    font-size: 2rem;
+}
+.slogan1{
+    font-family: 'Itim', cursive;
+}
+
+/* Parte Media Baja de la web "Contacto" */
+
+.media-baja{
+    background-color: #dae0c9;
+}
+
+.direccion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.direccion1 a{
+    text-decoration: none;
+    color: #686d4e;
+    font-size: 30px;
+}
+
+.horarios {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #686d4e;
+}
+
+.direccion1 a:hover{
+    background-color: #686d4e;
+    color: #dae0c9;
+    border-radius: 15px;
+}
+
+/* Footer de la pagina web */
+
+.pie{
+    width: 100vw;
+    height: 230px;
+    background-color: #dae0c9;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo1{
+    width: 190px;
+    height: 190px;
+    border-radius: 239px;
+}
