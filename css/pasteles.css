@@ -59,3 +59,66 @@ body{
     color: #dae0c9;
     border-radius: 15px;
 }
+
+.slogan{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background: #dae0c9;
+}
+
+.slogan h2{
+    color: #886421;
+    font-size: 60px;
+    font-family: 'Itim', cursive;
+}
+
+/* Seccion de Pasteles */
+
+.contenedor{
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 200px;
+    height: 200px;
+    background-color: #dae0c9;
+    box-shadow: 0 0 25px #686d4e;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.pastel2 input[type=checkbox ] + label{
+    height: 50px;
+    width: 50px;
+    background-image: url(https://media.istockphoto.com/photos/sponge-cake-with-strawberries-and-vanilla-cream-strawberry-fraisier-picture-id1171550749?b=1&k=20&m=1171550749&s=612x612&w=0&h=q3Knei_6Ycap91N_aCMEa-BzDrWF09Rhfgl_5wHDEXA=);
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+
+/* Footer de la pagina web
+
+.pie{
+    width: 100vw;
+    height: 230px;
+    background-color: #dae0c9;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo1{
+    width: 190px;
+    height: 190px;
+    border-radius: 239px;
+} */
