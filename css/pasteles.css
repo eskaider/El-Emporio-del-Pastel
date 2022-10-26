@@ -76,23 +76,53 @@ body{
 /* Seccion de Pasteles */
 
 .container{
+    display: flex;
+    justify-content: space-around;
     height: 200px;
-    width: 100%;
-    display: flex;    
-    justify-content: space-between;
     background: #dae0c9;
+    padding: 80px;
 }
 
-.chocolate{
-    display: flex;
-    align-items: center;
-    align-content: center;
-    text-align: center;
+[id*="cake"]{
+    cursor: pointer;
 }
+
+[id*="cake"]:hover{
+    background-color: #886421;
+}
+
+[class*="cake"]{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+[class*="pastel"]{
+    text-align: center;
+    background-color: #686d4e;
+    color: #dae0c9;
+    border-radius: 15px;
+    padding: 5px;
+}
+
 .choco{
-    float: inline-start;
-    height: 50px;
-    width: 50px;
+    margin-top: 100px;
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+}
+
+.fresas{
+    margin-top: 100px;
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+}
+
+.fruto{
+    margin-top: 100px;
+    width: 90px;
+    height: 90px;
     border-radius: 100%;
 }
 
