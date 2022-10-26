@@ -75,32 +75,25 @@ body{
 
 /* Seccion de Pasteles */
 
-.contenedor{
-    width: 100%;
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .container{
-    width: 200px;
     height: 200px;
-    background-color: #dae0c9;
-    box-shadow: 0 0 25px #686d4e;
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    cursor: pointer;
+    width: 100%;
+    display: flex;    
+    justify-content: space-between;
+    background: #dae0c9;
 }
 
-.pastel2 input[type=checkbox ] + label{
+.chocolate{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+.choco{
+    float: inline-start;
     height: 50px;
     width: 50px;
-    background-image: url(https://media.istockphoto.com/photos/sponge-cake-with-strawberries-and-vanilla-cream-strawberry-fraisier-picture-id1171550749?b=1&k=20&m=1171550749&s=612x612&w=0&h=q3Knei_6Ycap91N_aCMEa-BzDrWF09Rhfgl_5wHDEXA=);
-    background-repeat: no-repeat;
-    display: inline-block;
+    border-radius: 100%;
 }
 
 
