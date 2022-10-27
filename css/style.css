@@ -19,6 +19,9 @@ body{
     height: 200px;
     background: #dae0c9;
     display: flex;
+    border-bottom: 1px;
+    border-style: double;
+    border-color: #886421;
 }
 
 .menu{

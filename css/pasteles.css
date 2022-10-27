@@ -11,6 +11,7 @@ body{
     margin: 0;
     line-height: 1.5;
     text-align: left;
+    background: #dae0c9;
 }
 
 /* Header de la pagina Web */
@@ -19,6 +20,9 @@ body{
     height: 200px;
     background: #dae0c9;
     display: flex;
+    border-bottom: 1px;
+    border-style: double;
+    border-color: #886421;
 }
 
 .menu{
@@ -65,22 +69,25 @@ body{
     justify-content: center;
     align-content: center;
     background: #dae0c9;
+    text-align: center;
 }
 
 .slogan h2{
     color: #886421;
     font-size: 60px;
     font-family: 'Itim', cursive;
+    margin-top: 60px;
 }
 
 /* Seccion de Pasteles */
 
-.container{
+[class*="container"]{
     display: flex;
     justify-content: space-around;
     height: 200px;
     background: #dae0c9;
     padding: 80px;
+    margin-bottom: 100px;
 }
 
 [id*="cake"]{
@@ -103,27 +110,50 @@ body{
     color: #dae0c9;
     border-radius: 15px;
     padding: 5px;
+    margin-top: 10px;
 }
 
-.choco{
-    margin-top: 100px;
-    width: 90px;
-    height: 90px;
-    border-radius: 100%;
+[class*="descripcion"]{
+    text-align: center;
+    color: #686d4e;
+    font-size: 12px;
+    border-style: dashed;
+    border-radius: 10%;
+    border-color: #886421;
+    padding: 5px;
+    margin-top: 10px;
 }
 
-.fresas{
+[class*="img"]{
     margin-top: 100px;
-    width: 90px;
-    height: 90px;
-    border-radius: 100%;
+    width: 120px;
+    height: 120px;
+    border-radius: 25%;
 }
 
-.fruto{
-    margin-top: 100px;
-    width: 90px;
-    height: 90px;
-    border-radius: 100%;
+.form{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario{
+    margin: 0 auto;
+    width: 300px;
+    padding: 12px;
+    color: #686d4e;
+    text-align: center;
+}
+
+input field{
+    border: none;
+    padding: 8px;
+}
+
+.field{
+    border-bottom: solid 1px #886421;
+    text-align: center;
 }
 
 
