@@ -154,6 +154,7 @@ body{
     border: 2px solid rgba(0, 0, 0, 0.5);
     color: #686d4e;
     background-color: rgb(255, 255, 255);
+    cursor: pointer;
 }
 
 .btn:hover{
