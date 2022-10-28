@@ -132,32 +132,37 @@ body{
 }
 
 .form{
-    height: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.formulario{
-    margin: 0 auto;
-    width: 300px;
-    padding: 12px;
     color: #686d4e;
     text-align: center;
 }
 
-input field{
-    border: none;
-    padding: 8px;
+.formulario input{
+    border-radius: 20px;
+    padding: 10px;
+    width: 40%;
 }
 
-.field{
-    border-bottom: solid 1px #886421;
-    text-align: center;
+.formulario label {
+    font-size: 1.5rem;
+}
+
+.btn{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    color: #686d4e;
+    background-color: rgb(255, 255, 255);
+}
+
+.btn:hover{
+    color: #dae0c9;
+    background-color: #886421;
 }
 
 
-/* Footer de la pagina web
+    /* Footer de la pagina web */
 
 .pie{
     width: 100vw;
@@ -166,6 +171,7 @@ input field{
 }
 
 .logo{
+    margin-top: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -174,4 +180,34 @@ input field{
     width: 190px;
     height: 190px;
     border-radius: 239px;
-} */
+}
+
+.redes{
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.socials{
+    padding: 10px;
+    text-decoration: none;
+    color: #686d4e;
+    font-size: 15px;
+    font-family: 'Itim', cursive;
+    border-radius: 20px;
+}
+.socials:hover{
+    color: #dae0c9;
+    background-color: #886421;
+}
+.socials:active{
+    background-color: #c862d1;
+}
+
+.creador{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #686d4e;
+}
