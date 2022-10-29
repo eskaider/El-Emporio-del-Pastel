@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>El Emporio del Pastel</title>
-    <link rel="shortcut-icon" href="./img/icon.png">
+    <link rel="shortcut icon" href="./img/icon.png">
     <link rel="stylesheet" href="./css/adornos.css">
 </head>
 <body>
@@ -19,13 +19,14 @@
         <nav class="menu">
             <ul class="list">
                 <li class="items"><a href="pasteles.html">Pasteles</a></li>
-                <li class="items"><a href="#">Personaliza tu Pastel</a></li>
+                <li class="items"><a href="personalizacion.html">Personaliza tu Pastel</a></li>
                 <li class="items"><a href="adornos.html">Adornos</a></li>
             </ul>
         </nav>
     </header>
 
         <!-- Slogan de Pasteles -->
+
         <div class="slogan">
             <h2 class="slogan1">Pequeños detalles para<br>Una Gran Ocasión</h2>
         </div>
@@ -33,18 +34,48 @@
         <!-- Primer Contenedor de Pasteles -->
     
         <div class="container">
-            <!-- Primer Pastel -->
-                <div class="chocolate">
-                     
+            <!-- Primer Adorno -->
+
+                <div class="add1">
+                     <div class="adorno">
+                        <img src="https://i.etsystatic.com/31610576/r/il/08b656/3487315102/il_340x270.3487315102_l1tf.jpg" alt="" class="adoon">
+                     </div>
+                     <div class="descripcion">
+                        <span>Hojas de Glaseado <br> comestible <br>$300</span>
+                     </div>
+                     <div class="addon">
+                         <label id="ad" for="ad0">Delicioso Arte <br> Glaseado Comestible</label> 
+                         <input type="checkbox" name="ad0" id="ad0">
+                     </div>
                 </div>
     
-            <!-- Segundo Pastel -->
-                <div class="fresa">
-                    
+            <!-- Segundo Adorno -->
+
+                <div class="add2">
+                    <div class="adorno">
+                        <img src="https://i.etsystatic.com/32884687/r/il/893c78/3728203490/il_340x270.3728203490_iyoh.jpg" alt="" class="adoon">
+                    </div>
+                    <div class="descripcion">
+                        <span>Rosa Blanca <br> de Azúcar <br>$150</span>
+                    </div>
+                    <div class="addon">
+                        <label id="ad" for="ad1">Rosas Blancas <br> Comestibles</label> 
+                        <input type="checkbox" name="ad1" id="ad1">
+                    </div>
                 </div>
-            <!-- Tercer Pastel -->
-                <div class="frutos">
-                    
+            <!-- Tercer Adorno -->
+
+                <div class="add3">
+                    <div class="adorno">
+                        <img src="https://i.etsystatic.com/10752327/c/1709/1357/653/481/il/d21e4e/1295473251/il_340x270.1295473251_p0pz.jpg" alt="" class="adoon">
+                    </div>
+                    <div class="descripcion">
+                        <span>Topper Dulces 16 años <br>$35</span>
+                    </div>
+                    <div class="addon">
+                        <label id="ad" for="ad2">Topper 16 Años</label> 
+                        <input type="checkbox" name="ad2" id="ad2">
+                    </div>
                 </div>
         </div>
     
@@ -52,25 +83,52 @@
     
         <div class="container2">
     
-            <!-- Cuarto Pastel -->
-                <div class="zanahoria">
-                   
+            <!-- Cuarto Adorno -->
+                <div class="add4">
+                    <div class="adorno">
+                        <img src="https://i.etsystatic.com/7988025/r/il/287b89/1781295095/il_340x270.1781295095_84qq.jpg" alt="" class="adoon">
+                    </div>
+                    <div class="descripcion">
+                        <span>Topper Personalizado <br>$120</span>
+                    </div>
+                    <div class="addon">
+                        <label id="ad" for="ad3">Personaliza con <br> cualquier nombre</label>
+                        <input type="checkbox" name="ad3" id="ad3">
+                    </div>
                  </div>
     
-            <!-- Quinto Pastel -->
+            <!-- Quinto Adorno -->
     
-                 <div class="hojaldre">
-                     
+                 <div class="add5">
+                    <div class="adorno">
+                        <img src="https://i.etsystatic.com/8766987/r/il/1eb4ac/778137101/il_340x270.778137101_q24d.jpg" alt="" class="adoon">
+                    </div>
+                    <div class="descripcion">
+                        <span>Velas de Cumpleaños <br> 16pz <br>$40</span>
+                    </div>
+                    <div class="addon">
+                        <label id="ad" for="ad4">Veladoras <br> color Dorado</label>
+                        <input type="checkbox" name="ad4" id="ad4">
+                    </div>
                  </div>
     
-            <!-- Sexto Pastel -->
+            <!-- Sexto Adorno -->
     
-            <div class="coco">
-
+            <div class="add6">
+                <div class="adorno">
+                    <img src="https://i.etsystatic.com/8615062/r/il/ee1a78/1540764732/il_340x270.1540764732_c48j.jpg" alt="" class="adoon">
+                </div>
+                <div class="descripcion">
+                    <span>Topper de Carreolas <br>$125</span>
+                </div>
+                <div class="addon">
+                    <label id="ad" for="ad5">Carreolas <br> Comestibles</label>
+                    <input type="checkbox" name="ad5" id="ad5">
+                </div>
             </div>
         </div>
     
-        <!-- Formulario de Seleccion de Pastel -->
+        <!-- Formulario de Seleccion de Adorno -->
         
         <form action="" class="form">
     
@@ -89,15 +147,21 @@
     
                 <label for="phone">Ingresa tu Numero de telefono:</label><br>
                 <input class="field" type="tel" id="phone" name="phone" placeholder="Numero de Telefono" maxlength="10"><br>
+
+                <span class="pedido">En caso de que hayas escogido un Topper personalizable
+                escribe debajo que quieres que se Personalice
+                </span> <br>
+                <textarea name="personalizar" id="personalizar" cols="40" rows="5"></textarea>
     
-                <p>Ordena y Aparta tu Pastel</p> <br>
-                <input class="btn" type="submit" value="Apartar Pastel">
+                <p>Ordena tus Adornos</p> <br>
+                <input class="btn" type="submit" value="Pide ya tus adornos de Pastel">
     
             </div>
     
         </form>
     
     <!-- Footer de la pagina web -->
+
     <footer class="pie">
         <div class="logo">
             <figure>
@@ -114,7 +178,6 @@
             <p>&copy; Bryan Erubey Gonzalez Rojas</p>
         </div>
     </footer>
-<body>
-    
-</body>
+
+</body>    
 </html>

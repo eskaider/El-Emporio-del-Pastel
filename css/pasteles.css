@@ -84,6 +84,7 @@ body{
 [class*="container"]{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     height: 200px;
     background: #dae0c9;
     padding: 80px;
@@ -131,15 +132,19 @@ body{
     border-radius: 25%;
 }
 
+/* Formulario de Pasteles */
 .form{
     color: #686d4e;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .formulario input{
     border-radius: 20px;
     padding: 10px;
-    width: 40%;
+    width: 80%;
 }
 
 .formulario label {
